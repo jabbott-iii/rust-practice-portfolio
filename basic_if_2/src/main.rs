@@ -40,16 +40,16 @@ fn main() {
         let mut bill: i64 = 0;
         if age >= 45 && age <= 55 {
             println!("Free midlife crisis ticket!");
-            bill = 0;
+            bill += 0;
         } else if age >= 18 {
             println!("Adult tickets will be 10 dollars");
-            bill = 10;
+            bill += 10;
         } else if age >= 14 {
             println!("Youth tickets will be 7 dollars");
-            bill = 7;
+            bill += 7;
         } else {
             println!("Child tickets will be 5 dollars");
-            bill = 5;
+            bill += 5;
         }
 
         println!("Would you like your photo taken? Type Y for yes and N for no.");
