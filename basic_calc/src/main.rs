@@ -1,5 +1,6 @@
 use std::io;
 use std::io::BufRead;
+// f64 is a data type that represents a 64-bit floating point number
 
 fn main() {
     println!("Tip Calculator");
@@ -39,7 +40,7 @@ fn main() {
         .trim_end() // Remove any trailing newline characters
         .parse() // Parse the string to a floating-point number
         .expect("Please enter a valid number"); // Handle potential parsing errors
-    
+
     let friends = decimal_friends; // Number of people as f64
 
     let final_amount = total / friends; // Calculate the individual share of the tip
