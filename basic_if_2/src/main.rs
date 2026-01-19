@@ -10,8 +10,8 @@ fn main() {
             .read_line(&mut height)
             .expect("Failed to read line");
 
-            // Convert height input to i64
-        let height: i64 = height
+            // Convert height input to i8
+        let height: i8 = height
             .trim_end()
             .parse()
             .expect("Please enter a valid number");
@@ -30,14 +30,14 @@ fn main() {
                 .read_line(&mut age)
                 .expect("Failed to read line");
             
-            // Convert age input to i64
-            let age: i64 = age
+            // Convert age input to i8
+            let age: i8 = age
                 .trim_end()
                 .parse()
                 .expect("Please enter a valid number");
 
                 // Determine ticket price based on age
-        let mut bill: i64 = 0;
+        let mut bill: i8 = 0;
         if age >= 45 && age <= 55 {
             println!("Free midlife crisis ticket!");
             bill += 0;

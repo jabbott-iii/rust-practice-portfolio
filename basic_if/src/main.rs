@@ -8,7 +8,7 @@ fn main() {
     println!("Welcome to rust pizzia deliveries!");
     println!("What size pizzia do you want? S, M, or L: ");
 
-    let mut bill: i64 = 0; // Variable to hold the total bill amount
+    let mut bill: i16 = 0; // Variable to hold the total bill amount
     
     // Get user input for pizzia size
     

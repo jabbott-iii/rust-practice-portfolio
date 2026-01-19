@@ -9,8 +9,8 @@ fn main() {
             .read_line(&mut userdata)
             .expect("Failed to read line");
             
-        // Convert input to i64    
-        let userdata: i64 = userdata.trim()
+        // Convert input to i32    
+        let userdata: i32 = userdata.trim()
             .parse()
             .expect("Please enter a valid number");
 
