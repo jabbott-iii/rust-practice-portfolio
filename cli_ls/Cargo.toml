@@ -1,0 +1,11 @@
+[package]
+name = "cli_ls"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.43"
+clap = { version = "4.5.54", features = ["derive"] }
+owo-colors = "4.2.3"
+strum = { version = "0.27.2", features = ["derive"] }
+tabled = "0.20.0"
