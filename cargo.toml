@@ -1,5 +1,10 @@
 [workspace]
 members = [
     "basic_variable",
-    "basic_calc", "basic_if", "basic_if_2", "basic_if_3", "basic_odd_vs_even",
+    "basic_calc",
+    "basic_if",
+    "basic_if_2",
+    "basic_if_3",
+    "basic_odd_vs_even",
+    "cli_ls",
 ]   
