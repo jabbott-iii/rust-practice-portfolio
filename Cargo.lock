@@ -25,3 +25,7 @@ version = "0.1.0"
 [[package]]
 name = "basic_variable"
 version = "0.1.0"
+
+[package]
+name = "cli_ls"
+version = "0.1.0"
