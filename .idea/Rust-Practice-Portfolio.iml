@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/basic_calc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basic_if/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basic_if_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basic_if_3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basic_odd_vs_even/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basic_variable/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cli_ls/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/basic_calc/target" />
+      <excludeFolder url="file://$MODULE_DIR$/basic_if/target" />
+      <excludeFolder url="file://$MODULE_DIR$/basic_if_2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/basic_if_3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/basic_odd_vs_even/target" />
+      <excludeFolder url="file://$MODULE_DIR$/basic_variable/target" />
+      <excludeFolder url="file://$MODULE_DIR$/cli_ls/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
