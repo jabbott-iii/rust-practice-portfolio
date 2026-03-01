@@ -1,5 +1,3 @@
-Cargo project folders will contain compiled executable files.
-
 All folders above are individual cargo packages for each practice / manually transpiled program.
 
 ## cli_ls - Status: Complete
