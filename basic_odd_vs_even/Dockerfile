@@ -31,8 +31,8 @@ WORKDIR /app
 #    ca-certificates \
 # && rm -rf /var/lib/apt/lists/*
 
-COPY --from=builder /app/target/release/cli_ls /usr/local/bin/cli_ls
+COPY --from=builder /app/target/release/basic_odd_vs_even /usr/local/bin/basic_odd_vs_even
 
 # EXPOSE 8080
 
-CMD ["cli_ls"]
+CMD ["basic_odd_vs_even"]

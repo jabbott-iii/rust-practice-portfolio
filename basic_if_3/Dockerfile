@@ -31,8 +31,8 @@ WORKDIR /app
 #    ca-certificates \
 # && rm -rf /var/lib/apt/lists/*
 
-COPY --from=builder /app/target/release/cli_ls /usr/local/bin/cli_ls
+COPY --from=builder /app/target/release/basic_if_3 /usr/local/bin/basic_if_3
 
 # EXPOSE 8080
 
-CMD ["cli_ls"]
+CMD ["basic_if_3"]
